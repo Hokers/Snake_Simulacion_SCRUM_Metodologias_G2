@@ -31,6 +31,8 @@ public class ProyectoSerpiente extends Application {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        Color nuevo = new Color(200,201,230);
+        System.out.println(nuevo.toString());
         launch(args);
     }
     
