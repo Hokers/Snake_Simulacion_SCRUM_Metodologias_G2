@@ -20,7 +20,7 @@ public class Punto {
             return false;
         }
         Punto punto = (Punto) otro;
-        return x == punto.x & y == punto.y;
+        return x == punto.x & y == punto.y; // verificar que no esten en mismo lado
     }
 
     public int getX() {
@@ -32,7 +32,7 @@ public class Punto {
     }
 
     public Punto tupla(int dx, int dy) {
-        return new Punto(x + dx, y + dy);
+        return new Punto(x + dx, y + dy); // nuevas coordenadas
     }
 
     public String toString() {
