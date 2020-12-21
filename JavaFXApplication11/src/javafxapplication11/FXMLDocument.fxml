@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication11.FXMLDocumentController">
-    <children>
-        <Button layoutX="126" layoutY="90" text="Click Me!" onAction="#handleButtonAction" fx:id="button" />
-        <Label layoutX="126" layoutY="120" minHeight="16" minWidth="69" fx:id="label" />
-    </children>
+
+<AnchorPane id="AnchorPane" prefHeight="333.0" prefWidth="338.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication11.FXMLDocumentController">
+   <children>
+      <Text fill="WHITE" layoutX="228.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Puntaje:" />
+      <Text fill="WHITE" layoutX="281.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" />
+      <Text fill="WHITE" layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Snake Game">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="__________________________________________________________">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+   </children>
 </AnchorPane>
